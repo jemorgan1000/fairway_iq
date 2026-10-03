@@ -1,0 +1,28 @@
+{
+  "name": "fairway_iq",
+  "version": "1.0.0",
+  "description": "This is an app for fairway_iq, a tool to measure the width of fairways and create a plan for a golf course",
+  "homepage": "https://github.com/jemorgan1000/fairway_iq#readme",
+  "bugs": {
+    "url": "https://github.com/jemorgan1000/fairway_iq/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemorgan1000/fairway_iq.git"
+  },
+  "license": "ISC",
+  "author": "josh m",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}
